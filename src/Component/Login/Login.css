@@ -3,7 +3,7 @@
     margin:100px auto;
     padding:10px 20px 30px;
     background-color: rgba(103, 228, 149, 0.5);
-    color:white;
+    color:black;
     font-size: 30px;
     border-radius: 10px;
 }
@@ -14,7 +14,7 @@
 .labeltext {
     display:"block";
 }
-input {
+.input-login {
     width:100%;
     font-size: 1.2em;
     border: 1px solid #006077;
@@ -33,4 +33,7 @@ input {
     color: rgb(240, 233, 233);
     font-size: 1em;
     border: none;
+}
+.err{
+    color: red;
 }

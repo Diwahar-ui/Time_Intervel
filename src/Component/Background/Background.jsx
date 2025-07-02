@@ -16,7 +16,7 @@ const Background = ({playStatus,heroCount}) => {
     )
    }
    else if (heroCount===0){
-    return <img src={image1} className='background  fade-in' alt=''/>
+    return <img src={image1} className='background  fade-in' alt='diwa'/>
    }
    
    else if (heroCount===1){

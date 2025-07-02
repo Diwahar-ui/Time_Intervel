@@ -4,7 +4,7 @@ import Navbar from './Component/Navbar/Navbar';
 import Hero from './Component/Hero/Hero';
 import Login from './Component/Login/Login';
 import UseState from './Component/Hooks/UseState';
-
+import Signup from './Sign up/Signup';
 function App() {
   let heroData =[
     {text1:"Dive into",text2:"what you love"},
@@ -25,7 +25,8 @@ function App() {
     <>
       <div>
         <Login />
-        <UseState/>
+        <Signup/>
+        {/* <UseState/> */}
         {/* <Background playStatus={playStatus} heroCount={heroCount}/>
         <Navbar/>
         <Hero

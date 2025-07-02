@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 
 const UseState = () => {
-    const [count,setjj]=useState(1);
+    const [count,setjj]=useState();
     const change = ()=>{
         setjj(count=1);
     }
